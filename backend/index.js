@@ -16,6 +16,7 @@ app.use(cors({
         "https://voiceassistantfrontend-vm3r.onrender.com"
     ],
     credentials: true
+    
 }));
 
 const port=process.env.PORT || 5000
